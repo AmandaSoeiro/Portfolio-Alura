@@ -1,4 +1,4 @@
-# PORTIFOLIO IMERSÃO ALURA
+# PORTFOLIO IMERSÃO ALURA
 ## Para as aulas da imersão ultilizamos a plataforma CodePen, onde estrabalhei alguns projetos focando o aprendizado da linguagem JavaScript, mas também exercitei HTML e CSS. 
 
 # Projetos Elaborados 
