@@ -11,4 +11,5 @@
 
 # **_Para conferir com mais detalhe segue o link:_**
 
-## https://portifolio-imersaoalura.netlify.app/
+## 
+https://amandasoeiro-imersaoalura.netlify.app/
