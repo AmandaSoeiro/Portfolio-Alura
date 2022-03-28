@@ -21,10 +21,9 @@ body {
 }
 
 .centered {
-  position: fixed;
-  top: 50%;
+  position: relative;
+  top: 40%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
 
@@ -78,12 +77,11 @@ body {
 .tema button {
   font-size: 16px;
   font-family: var(--font);
-  margin-top: 20px;
+  margin-top: 5%;
   margin-left: 80%;
   padding: 8px 16px;
   background: #ff1493;
   color: white;
-  box-sizing: border-box;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
   border-radius: 100px;
   border: 2px solid #ff1493;
@@ -93,7 +91,6 @@ body {
 .line-1 {
   position: relative;
   top: 50%;
-  width: 28em;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-size: 0.8rem;
   color: black;
@@ -105,16 +102,16 @@ body {
 
 /* Animation */
 .anim-typewriter {
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
+  animation: typewriter 4s steps(25) 1s 1 normal both,
+    blinkTextCursor 300ms steps(25) infinite normal;
 }
 
 @keyframes typewriter {
   from {
-    width: 0;
+    width:0;
   }
   to {
-    width: 28em;
+    width: 18em;
   }
 }
 
@@ -253,4 +250,45 @@ body {
 
 .theme .container-projetos li:hover {
   color: #008B8B;
+}
+
+@media screen and (max-width:700px) {
+
+  .tema button {
+
+    margin-left: 60%;
+  
+  }
+  .perfil {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+  }
+
+  .container {
+    width: 350px;
+    margin-top: 2rem;
+    background: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    display: block;
+  }
+
+.container-projetos {
+  padding:1rem;
+  background: pink;
+  /*box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);*/
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+
+}
+.line-1 { 
+  position:static;
+  top: 50%;
+  font-weight:400;
+}
+
 }
